@@ -1,0 +1,55 @@
+DAY 1 TASK
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY1TASK</title>
+    <style>
+        p{
+            color: #0d0a0a;
+        }
+        #html
+        {
+            background-color: coral ;
+            width: fit-content;
+        }
+        .html1
+        {
+            background-color: blue;
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <h1>  <strong> Webpage Created By Basic Tags  </strong> </h1>
+    <br>
+    <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde possimus sequi ex debitis magni nobis laboriosam, illum at dolorum ratione error magnam, consequuntur nihil blanditiis est quidem autem ipsum!</p>
+   <br>
+    <img src="Speech Emotion Recognition System - visual selection.png" width="300" height="300">
+    <br>
+    <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w"> View More </a>
+    <br> 
+    <P title="Hello"> Hi</P>
+    <p id="html">This is an HTML tutorial</p>
+    <p class="html1">This is an HTML tutorial</p>
+    <br>
+    <a href="https://www.w3schools.com/tags/att_a_target.asp" target="_blank" > Hyper </a>
+    <br>
+    <a href="https://www.w3schools.com/tags/att_a_target.asp" target="_self">Text</a>
+    <br>
+    <a href="https://www.w3schools.com/tags/att_a_target.asp" target="_parent">Markup</a>
+    <br>
+    <a href="https://www.w3schools.com/tags/att_a_target.asp" target="_top">Language</a>
+    <br>
+    <pre>
+        This    is      preformatted
+        text.
+        It preserves spaces and
+        line breaks exactly.
+    </pre>
+
+</body>
+</html>
+
+
