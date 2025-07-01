@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Images</title>
+  <style>
+    body{
+      background-image: url(birmingham-museums-trust-HEEvYhNzpEo-unsplash.jpg);
+      background-size: 100%;
+      
+    }
+  </style>
+</head>
+<body>
+  <h1>Test Responsive Images</h1>
+  <p>This image will change depending on the screen width.</p>
+  <img src="Speech Emotion Recognition System - visual selection.png" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+<map name="planetmap">
+  <area shape="circle" coords="0,0,82,126" alt="" href="https://www.bing.com/search?q=Circle+Art&FORM=HDRSC1https://www.bing.com/search?q=Circle+Art&FORM=HDRSC1">
+</map>
+</body>
+</html>
+                                                                                      
