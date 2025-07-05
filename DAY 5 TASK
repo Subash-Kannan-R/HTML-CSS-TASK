@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span#a{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: rgb(220, 237, 223);
+  color: blueviolet;
+ 
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+     <ul>
+
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ol type="A" start="5">
+        <li>Drinks</li>
+        <li>Green Tea</li>
+        <li>Black Tea</li>
+    </ol>
+
+    <dl>
+        <dt> Milk</dt>
+        <dd> White colour</dd>
+    </dl>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus cupiditate facilis nostrum nobis officia cumque dolore, doloribus aspernatur sunt aliquid corrupti et ab consectetur impedit in sequi temporibus<span style="color: aquamarine;font-weight: bold;"> reprehenderit! </span> Temporibus!</p>
+
+<h2>display: inlinek</h2>
+<div> <span id="a">Aliquam</span> <span id="a">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+</body>
+
+</html>
