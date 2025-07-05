@@ -13,7 +13,7 @@
   </style>
 </head>
 <body>
-  <h1>Test Responsive Images</h1>
+  <h1> Responsive Images</h1>
   <p>This image will change depending on the screen width.</p>
   <img src="Speech Emotion Recognition System - visual selection.png" width="145" height="126" alt="Planets" usemap="#planetmap">
 
