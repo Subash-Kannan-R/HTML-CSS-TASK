@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELLO</title>
+    <h3 style="text-align: center; "> USING JUMP TAGS</h3>
+    <style>
+        body
+        {
+         #c1{
+            background-color: black;
+            border-radius: 12px;
+            color: aliceblue;
+            font-style: italic;
+            padding: 10px;
+            width: fit-content;
+        }
+         #c2{
+            background-color: black;
+            color:black;
+            border-radius: 25px 12px;
+            font-style:oblique;
+            padding: 10px;
+            width: fit-content;
+            
+        }
+         #c3{
+            background-color: rgb(202, 24, 24);
+            color: aliceblue;
+            border-radius: 15px 55px;
+            font-style:normal;
+            padding: 10px;
+            width: fit-content;
+        }
+         #c4{
+            background-color: rgb(125, 177, 28);
+            color: white;
+            border-radius: 20px 89px 36px;
+            font-style: italic;
+            padding: 10px;
+            width: fit-content;
+        }
+         #c5{
+            background-color: black;
+            color: aliceblue;
+            border-radius: 22px 33px;
+            font-style: oblique;
+            padding: 10px;
+            width: fit-content;
+        }
+         .chp2:hover{
+            padding:10px;
+            color: black;
+            background-color: aqua;
+         }
+         .chp5:hover{
+            padding:10px;
+            color: black;
+            background-color: rgb(20, 174, 41);
+         }
+         #hi:hover
+         {
+            background-color: transparent;
+            
+         }
+         #hi1:active
+         {
+            background-color: blue;
+            
+         }
+         #hello:hover{
+            background-color: darkmagenta;
+            width:fit-content;
+         }
+        }
+    </style>
+</head>
+<body>
+    <a id="hi" href="#c2"> Jump to chapter 2</a>
+    <br><hr>
+    <a id="hi1" href="#c5"> Jump to chapter 5</a>
+    <br><hr>
+    <h2 id="c1" style="color: aqua;"> Chapter 1</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, reprehenderit.</p>
+    <hr>
+     <h2 id="c2" style="color: rgb(14, 177, 104);"> Chapter 2</h2>
+    <p class="chp2"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, reprehenderit. </p>
+    <hr>
+     <h2 id="c3" style="color: rgb(203, 171, 27);"> Chapter 3</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, reprehenderit.</p>
+    <hr>
+     <h2 id="c4" style="color: rgb(226, 23, 108);"> Chapter 4</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, reprehenderit.</p>
+    <hr>
+     <h2 id="c5" style="color: rgb(139, 13, 177);"> Chapter 5</h2>
+    <p class="chp5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, reprehenderit.</p>
+<br><hr> 
+    <p id="hello"> </p>
+ 
+    <script>
+        const d = new Date();
+        document.getElementById("hello").innerHTML = d;
+    </script>
+    
+</body>
+</html>
