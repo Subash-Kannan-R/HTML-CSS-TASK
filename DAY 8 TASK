@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day8Task</title>
+  <style>
+    .floatleft{
+      float: left;
+      padding: 10px;
+      background-color: black;
+      color: aliceblue;
+      width: fit-content;
+      border: 1px solid rgb(64, 255, 0);
+    }
+    .well{
+      padding: 10px;
+      border:2px solid red
+}
+   .floatright{
+      float: right;
+      padding: 10px;
+      background-color: black;
+      color: aliceblue;
+      width: fit-content;
+    }
+    .hell{
+      padding: 10px;
+      border:2px solid red;
+}
+ img{
+        float:right;
+      }
+      .img2{
+        float:right;
+      }
+      .clearfix{
+        overflow: auto;
+      }
+      div{
+        padding: 2px;
+        border: 2px solid blue;
+      }
+  </style>
+
+</head>
+<body>
+  <h1 style="color: rgb(31, 212, 104);"> USE FLOAT AND CLEAR PROPERTY</h1>
+  <p style="color: darkkhaki;">  FLOTING LEFT TAG
+  </p>
+  <div class ="floatleft"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, praesentium.</div>
+  <div class =" well"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, praesentium.</div>
+<br><br>
+<div class ="floatright"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, praesentium.</div>
+  <div class =" hell"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, praesentium.</div>
+  <br><br>
+  <p ><img src ="birmingham-museums-trust-HEEvYhNzpEo-unsplash.jpg" width="150px" hight="150px">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore non perspiciatis ab fugiat adipisci ex laudantium enim eveniet natus error. </p>
+  <br><br>
+  <br><br>
+  <h2> CLEAR PROPERTY</h2>
+<div class="clearfix">
+  <img class="img2" src="Speech Emotion Recognition System - visual selection.png" width="150" height="150">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+</div>
+
+
+</body>
+</html>
