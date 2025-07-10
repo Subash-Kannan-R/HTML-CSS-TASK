@@ -85,7 +85,9 @@
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, reprehenderit.</p>
     <hr>
      <h2 id="c2" style="color: rgb(14, 177, 104);"> Chapter 2</h2>
-    <p class="chp2"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, reprehenderit. </p>
+    <p class="chp2"> LNotice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.
+
+Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).. </p>
     <hr>
      <h2 id="c3" style="color: rgb(203, 171, 27);"> Chapter 3</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, reprehenderit.</p>
