@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin :0;
+            display: inline-flex;
+            background-color: rgb(0, 255, 42);
+            width: 1a00%;
+            gap: 10px;
+        }
+        div a{
+             margin: 0;
+            color: aliceblue;
+            margin: 25px;
+            font-weight: bold ;
+            text-align: center;
+           
+        }
+    </style>
+</head>
+<body>
+    <h2>Making Dropdown Design</h2>
+    <P> Lorem ipsum dolor sit amet.</P>
+    <div>
+            <a href="#About">Home</a>
+            <a href="#About">About</a>
+            <a href="#About">Contact</a>
+    </div>
+      
+</body>
+</html>
