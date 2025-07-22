@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <style>
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(120deg, #2980b9, #6dd5fa);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius:95px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+  max-width: 400px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.input-group {55+
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #5ad40e;
+  outline:double;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1f6391;
+}
+
+.signup-link {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+  </style>
+</head>
+<body>
+  <div class="login">
+    <form class="login-form">
+      <h2>Login</h2>
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required/>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required/>
+      </div>
+       <input type="submit" value="Login"></input>
+      <p class="signup-link">Don't have an account? <a href="#">Register</a></p>
+    </form> 
+  </div>
+</body>
+</html>
