@@ -43,7 +43,7 @@
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus cupiditate facilis nostrum nobis officia cumque dolore, doloribus aspernatur sunt aliquid corrupti et ab consectetur impedit in sequi temporibus<span style="color: aquamarine;font-weight: bold;"> reprehenderit! </span> Temporibus!</p>
 
 <h2>display: inlinek</h2>
-<div> <span id="a">Aliquam</span> <span id="a">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+<div> <span id="a">Aliquam</span> <span id="a">venenatis</span> gravida nisl sit amet facilisis. </div>
 </body>
 
 </html>
