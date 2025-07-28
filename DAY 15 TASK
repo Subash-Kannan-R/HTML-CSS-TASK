@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bro Code</title>
+    <style>
+      body{
+    background-color: hsl(0, 0%, 12%);
+}
+img{
+    width:400px;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.28,-1.48, 0.54, 2.21);
+}
+.i
+{ width:400px;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.28,-1.48, 0.54, 2.21);
+  }
+
+@keyframes slideLeft{
+    from{transform: translateX(300%)}
+}
+@keyframes slideRight{
+    to{transform: translateX(300%)}
+}
+@keyframes slideUp{
+    from{transform: translateY(300%)}
+}
+@keyframes slideDown{
+    to{transform: translateY(300%)}
+}
+@keyframes rotate{
+    50%{transform: rotateZ(360deg)}
+}
+@keyframes grow{
+    50%{transform: scale(2, 2)}
+}
+@keyframes shrink{
+    50%{transform: scale(0.5, 0.5)}
+}
+</style>
+</head>
+<body>
+
+    <img src="Car3.webp">
+    <img class="i" src="Car1.avif">
+
+</body>
+</html>
+
+
+
